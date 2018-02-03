@@ -109,7 +109,7 @@ public class game {
             }
         }
         boolean madeChange = false;
-        if (direction) { // TRue for going up, false for going down
+        if (direction) { // True for going up, false for going down
             madeChange = addLeft(rotated);
         } else {
             madeChange = addRight(rotated);
