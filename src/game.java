@@ -145,6 +145,8 @@ public class game {
                 System.out.println("GAME OVER!!!");
                 gameOver = true;
             }
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
             drawBoard();
 
 
